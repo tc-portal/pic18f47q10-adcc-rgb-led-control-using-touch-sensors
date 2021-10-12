@@ -1,0 +1,74 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-adcc-rgb-led-control-using-touch-sensors",
+        "version": "1.0.3",
+        "displayName": "RGB LED Control using Capacitive Touch Sensors",
+        "projectName": "pic18f47q10-adcc-rgb-led-control-using-touch-sensors",
+        "shortDescription": "This example is developed using PIC18-Q10 family MCU and Curiosity Nano development board. The example demonstrates LED brightness control and sleep implementation using Core Independent Peripherals (CIPs) of PIC18F47Q10 MCU and through mobile android application.",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
+        },
+        "compiler": [
+			{
+				"name": "XC8",
+				"semverRange": "^2.30.0"
+			}
+		],
+        "dfp": {
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.8.154"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=4.0.1"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F47Q10",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+			"Communication",
+            [
+               "Peripherals", "TMR1"
+            ],
+			[
+			   "Peripherals", "ADCC"
+            ]	           			
+        ],
+        "peripherals": [
+            "TMR1","ADCC"
+        ],
+        "keywords": [
+		    "mTouch",
+			"CVD",
+            "Capacitive Touch",
+            "LED",
+			"Touch sensing",
+			"Curiosity",
+			"User Interface",
+			"Touch"
+        ],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
